@@ -42,7 +42,7 @@ def getZcode():
 
 def getAge():
     while True:
-        x = input("Enter your zip age:")
+        x = input("Enter your age:")
         try:
             int(x)
             return x
